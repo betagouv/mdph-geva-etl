@@ -3,7 +3,7 @@
     "id": 0,
     "Section": "éléments environnementaux",
     "Libelle": "Composition du foyer",
-    "Trajectoire": "toutes",
+    "Trajectoire": "Toutes",
     "Question": "Quelle est la situation familiale de la personne ?",
     "Type": "CU N1 CM N2",
     "Reponses": [
@@ -60,7 +60,7 @@
     "id": 1,
     "Section": "éléments environnementaux",
     "Libelle": "Type d'hébergement (TYPHEB)",
-    "Trajectoire": "toutes",
+    "Trajectoire": "Toutes",
     "Question": "Où la personne est-elle hébergée? ",
     "Type": "CM tous niveaux",
     "Reponses": [
@@ -187,7 +187,7 @@
     "id": 2,
     "Section": "éléments environnementaux",
     "Libelle": "caractéristiques du logement (TYPAEXT)",
-    "Trajectoire": "toutes",
+    "Trajectoire": "Toutes",
     "Question": "Le logement est-il adapté?",
     "Type": "CU N1 CM N2,N3 ",
     "Reponses": [
@@ -288,7 +288,7 @@
     "id": 3,
     "Section": "éléments environnementaux",
     "Libelle": "ressources propres de la personne (SITREC)",
-    "Trajectoire": "toutes",
+    "Trajectoire": "Toutes",
     "Question": "Quelles sont les ressources dont elle dispose?",
     "Type": "CU N1 CM N2, N3, N4",
     "Reponses": [
@@ -426,7 +426,7 @@
     "id": 4,
     "Section": "éléments environnementaux",
     "Libelle": "Caractéristiques transport (CARTRANSP)",
-    "Trajectoire": "toutes",
+    "Trajectoire": "Toutes",
     "Question": "Quels sont les moyens de transport utilisés par la personne?",
     "Type": "CM tous niveaux",
     "Reponses": [

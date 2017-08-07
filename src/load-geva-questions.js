@@ -41,7 +41,7 @@ function transform(worksheet) {
       id: id,
       Section: worksheet[SECTION + row].v,
       Libelle: worksheet[LIBELLE + row].v,
-      Trajectoire: worksheet[TRAJECTOIRE + row].v,
+      Trajectoire: _.capitalize(worksheet[TRAJECTOIRE + row].v),
       Question: worksheet[QUESTION + row].v,
       Type: worksheet[TYPE + row].v,
       Reponses: []
