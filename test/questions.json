@@ -1,0 +1,1580 @@
+[
+  {
+    "id": 0,
+    "Section": "éléments environnementaux",
+    "Libelle": "Composition du foyer",
+    "Trajectoire": "toutes",
+    "Question": "Quelle est la situation familiale de la personne ?",
+    "Type": "CU N1 CM N2",
+    "Reponses": [
+      {
+        "id": "II_1 bis_1",
+        "CodeValeur": "II.1 bis.1",
+        "Libelle": "vit seule"
+      },
+      {
+        "id": "II_1 bis_2",
+        "CodeValeur": "II.1 bis.2",
+        "Libelle": "vit avec d'autres personnes",
+        "Reponses": [
+          {
+            "id": "II_1 bis_2_a",
+            "CodeValeur": "II.1 bis.2.a",
+            "Libelle": "vit avec son conjoint"
+          },
+          {
+            "id": "II_1 bis_2_b",
+            "CodeValeur": "II.1 bis.2.b",
+            "Libelle": "vit avec son ou ses enfants"
+          },
+          {
+            "id": "II_1 bis_2_c",
+            "CodeValeur": "II.1 bis.2.c",
+            "Libelle": "vit avec ses parents"
+          },
+          {
+            "id": "II_1 bis_2_d",
+            "CodeValeur": "II.1 bis.2.d",
+            "Libelle": "vit avec un autre membre de sa famille"
+          },
+          {
+            "id": "II_1 bis_2_e",
+            "CodeValeur": "II.1 bis.2.e",
+            "Libelle": "vit avec un(e) ou des ami(e)s"
+          },
+          {
+            "id": "II_1 bis_2_f",
+            "CodeValeur": "II.1 bis.2.f",
+            "Libelle": "vit avec un(e) ou des colocataires"
+          },
+          {
+            "id": "II_1 bis_2_g",
+            "CodeValeur": "II.1 bis.2.g",
+            "Libelle": "vit avec d'autres types de personnes "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "Section": "éléments environnementaux",
+    "Libelle": "Type d'hébergement (TYPHEB)",
+    "Trajectoire": "toutes",
+    "Question": "Où la personne est-elle hébergée? ",
+    "Type": "CM tous niveaux",
+    "Reponses": [
+      {
+        "id": "III_1_1",
+        "CodeValeur": "III.1.1",
+        "Libelle": "Domicile personnel"
+      },
+      {
+        "id": "III_1_2",
+        "CodeValeur": "III.1.2",
+        "Libelle": "Domicile familial"
+      },
+      {
+        "id": "III_1_3",
+        "CodeValeur": "III.1.3",
+        "Libelle": "Hébergée chez un tiers"
+      },
+      {
+        "id": "III_1_4",
+        "CodeValeur": "III.1.4",
+        "Libelle": "Hébergée par un établissement médico-social",
+        "Reponses": [
+          {
+            "id": "III_1_4_a",
+            "CodeValeur": "III.1.4.a",
+            "Libelle": "hébergée par un IME"
+          },
+          {
+            "id": "III_1_4_b",
+            "CodeValeur": "III.1.4.b",
+            "Libelle": "hébergée par un ITEP"
+          },
+          {
+            "id": "III_1_4_c",
+            "CodeValeur": "III.1.4.c",
+            "Libelle": "hébergée par un IEM"
+          },
+          {
+            "id": "III_1_4_d",
+            "CodeValeur": "III.1.4.d",
+            "Libelle": "hébergée par un établissement pour enfant ou adolescent polyhandicapé"
+          },
+          {
+            "id": "III_1_4_e",
+            "CodeValeur": "III.1.4.e",
+            "Libelle": "hébergée par un institut pour déficient auditif"
+          },
+          {
+            "id": "III_1_4_f",
+            "CodeValeur": "III.1.4.f",
+            "Libelle": "hébergée par un institut pour déficient visuel"
+          },
+          {
+            "id": "III_1_4_g",
+            "CodeValeur": "III.1.4.g",
+            "Libelle": "hébergée par un autre établissement médico-social enfant"
+          },
+          {
+            "id": "III_1_4_h",
+            "CodeValeur": "III.1.4.h",
+            "Libelle": "hébergée par un FH"
+          },
+          {
+            "id": "III_1_4_i",
+            "CodeValeur": "III.1.4.i",
+            "Libelle": "hébergée par un foyer de vie"
+          },
+          {
+            "id": "III_1_4_j",
+            "CodeValeur": "III.1.4.j",
+            "Libelle": "hébergée par un FAM"
+          },
+          {
+            "id": "III_1_4_k",
+            "CodeValeur": "III.1.4.k",
+            "Libelle": "hébergée par un établissement d'accueil non médicalisé"
+          },
+          {
+            "id": "III_1_4_l",
+            "CodeValeur": "III.1.4.l",
+            "Libelle": "hébergée par un établissement d'accueil médicalisé en tout ou partie"
+          },
+          {
+            "id": "III_1_4_m",
+            "CodeValeur": "III.1.4.m",
+            "Libelle": "hébergée par une MAS"
+          }
+        ]
+      },
+      {
+        "id": "III_1_5",
+        "CodeValeur": "III.1.5",
+        "Libelle": "Hébergée en famille d'accueil"
+      },
+      {
+        "id": "III_1_6",
+        "CodeValeur": "III.1.6",
+        "Libelle": "Hôtel"
+      },
+      {
+        "id": "III_1_7",
+        "CodeValeur": "III.1.7",
+        "Libelle": "SDF"
+      },
+      {
+        "id": "III_1_8",
+        "CodeValeur": "III.1.8",
+        "Libelle": "Logement accompagné ou supervisé"
+      },
+      {
+        "id": "III_1_9",
+        "CodeValeur": "III.1.9",
+        "Libelle": "Hospitalisation "
+      },
+      {
+        "id": "III_1_10",
+        "CodeValeur": "III.1.10",
+        "Libelle": "Autre "
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "Section": "éléments environnementaux",
+    "Libelle": "caractéristiques du logement (TYPAEXT)",
+    "Trajectoire": "toutes",
+    "Question": "Le logement est-il adapté?",
+    "Type": "CU N1 CM N2,N3 ",
+    "Reponses": [
+      {
+        "id": "III_5_4",
+        "CodeValeur": "III.5.4",
+        "Libelle": "logement accessible, adapté"
+      },
+      {
+        "id": "III_5_5",
+        "CodeValeur": "III.5.5",
+        "Libelle": "logement non accessible, non adapté",
+        "Reponses": [
+          {
+            "id": "III_5_5_a",
+            "CodeValeur": "III.5.5.a",
+            "Libelle": "extérieur du logement non accessible",
+            "Reponses": [
+              {
+                "id": "III_5_5_a_1",
+                "CodeValeur": "III.5.5.a.1",
+                "Libelle": "abords du logement non accessible"
+              },
+              {
+                "id": "III_5_5_a_2",
+                "CodeValeur": "III.5.5.a.2",
+                "Libelle": "parking ou zone de stationnement non accessible"
+              },
+              {
+                "id": "III_5_5_a_3",
+                "CodeValeur": "III.5.5.a.3",
+                "Libelle": "entrée du bâtiment non accessible"
+              },
+              {
+                "id": "III_5_5_a_4",
+                "CodeValeur": "III.5.5.a.4",
+                "Libelle": "parties communes non accessibles"
+              },
+              {
+                "id": "III_5_5_a_5",
+                "CodeValeur": "III.5.5.a.5",
+                "Libelle": "ascenseur non accessible"
+              }
+            ]
+          },
+          {
+            "id": "III_5_5_b",
+            "CodeValeur": "III.5.5.b",
+            "Libelle": "intérieur du logement non adapté",
+            "Reponses": [
+              {
+                "id": "III_5_5_b_1",
+                "CodeValeur": "III.5.5.b.1",
+                "Libelle": "séjour non adapté"
+              },
+              {
+                "id": "III_5_5_b_2",
+                "CodeValeur": "III.5.5.b.2",
+                "Libelle": "cuisine non adaptée"
+              },
+              {
+                "id": "III_5_5_b_3",
+                "CodeValeur": "III.5.5.b.3",
+                "Libelle": "chambre non adaptée"
+              },
+              {
+                "id": "III_5_5_b_4",
+                "CodeValeur": "III.5.5.b.4",
+                "Libelle": "W.C non adaptés"
+              },
+              {
+                "id": "III_5_5_b_5",
+                "CodeValeur": "III.5.5.b.5",
+                "Libelle": "salle de bain non adaptée"
+              },
+              {
+                "id": "III_5_5_b_6",
+                "CodeValeur": "III.5.5.b.6",
+                "Libelle": "autre pièce non adaptée"
+              },
+              {
+                "id": "III_5_5_b_7",
+                "CodeValeur": "III.5.5.b.7",
+                "Libelle": "circulation intérieure verticale non adaptée"
+              },
+              {
+                "id": "III_5_5_b_8",
+                "CodeValeur": "III.5.5.b.8",
+                "Libelle": "circulation intérieure horizontale non adaptée"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "Section": "éléments environnementaux",
+    "Libelle": "ressources propres de la personne (SITREC)",
+    "Trajectoire": "toutes",
+    "Question": "Quelles sont les ressources dont elle dispose?",
+    "Type": "CU N1 CM N2, N3, N4",
+    "Reponses": [
+      {
+        "id": "II_3_1",
+        "CodeValeur": "II.3.1",
+        "Libelle": "non attendu en fonction de l'âge"
+      },
+      {
+        "id": "II_3_2",
+        "CodeValeur": "II.3.2",
+        "Libelle": "présence de ressources personnelles",
+        "Reponses": [
+          {
+            "id": "II_3_2_a",
+            "CodeValeur": "II.3.2.a",
+            "Libelle": "a des ressources personnelles issues d'un salaire ou d'autre revenu du travail"
+          },
+          {
+            "id": "II_3_2_b",
+            "CodeValeur": "II.3.2.b",
+            "Libelle": "a des ressources personnelles autres qu'un salaire ou un autre revenu du travail",
+            "Reponses": [
+              {
+                "id": "II_3_2_b_1",
+                "CodeValeur": "II.3.2.b.1",
+                "Libelle": "a une allocation chômage comme ressources personnelles ",
+                "Reponses": [
+                  {
+                    "id": "II_3_2_b_1_a",
+                    "CodeValeur": "II.3.2.b.1.a",
+                    "Libelle": "a une allocation de retour à l'emploi"
+                  },
+                  {
+                    "id": "II_3_2_b_1_b",
+                    "CodeValeur": "II.3.2.b.1.b",
+                    "Libelle": "a une allocation de solidarité spécifique"
+                  }
+                ]
+              },
+              {
+                "id": "II_3_2_b_2",
+                "CodeValeur": "II.3.2.b.2",
+                "Libelle": "a des indemnités journalières assurance maladie comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_3",
+                "CodeValeur": "II.3.2.b.3",
+                "Libelle": "a une pension d'invalidité, une rente AT ou MP comme ressources personnelles ",
+                "Reponses": [
+                  {
+                    "id": "II_3_2_b_3_a",
+                    "CodeValeur": "II.3.2.b.3.a",
+                    "Libelle": "a une pension d'invalidité 1er cat comme ressources personnelles "
+                  },
+                  {
+                    "id": "II_3_2_b_3_b",
+                    "CodeValeur": "II.3.2.b.3.b",
+                    "Libelle": "a une pension d'invalidité 2ème cat comme ressources personnelles "
+                  },
+                  {
+                    "id": "II_3_2_b_3_c",
+                    "CodeValeur": "II.3.2.b.3.c",
+                    "Libelle": "a une pension d'invalidité 3ème cat comme ressources personnelles "
+                  },
+                  {
+                    "id": "II_3_2_b_3_d",
+                    "CodeValeur": "II.3.2.b.3.d",
+                    "Libelle": "a une allocation supplémentaire d'invalidité (FSI) comme ressources personnelles "
+                  },
+                  {
+                    "id": "II_3_2_b_3_e",
+                    "CodeValeur": "II.3.2.b.3.e",
+                    "Libelle": "a une autre pension comme ressources personnelles "
+                  },
+                  {
+                    "id": "II_3_2_b_3_f",
+                    "CodeValeur": "II.3.2.b.3.f",
+                    "Libelle": "a une autre pension avec MTP comme ressources personnelles "
+                  }
+                ]
+              },
+              {
+                "id": "II_3_2_b_4",
+                "CodeValeur": "II.3.2.b.4",
+                "Libelle": "a l'AAH comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_5",
+                "CodeValeur": "II.3.2.b.5",
+                "Libelle": "a le complément de ressources comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_6",
+                "CodeValeur": "II.3.2.b.6",
+                "Libelle": "a la majoration pour la vie autonome comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_7",
+                "CodeValeur": "II.3.2.b.7",
+                "Libelle": "a le RSA comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_8",
+                "CodeValeur": "II.3.2.b.8",
+                "Libelle": "a une autre allocation comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_9",
+                "CodeValeur": "II.3.2.b.9",
+                "Libelle": "a une retraite comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_10",
+                "CodeValeur": "II.3.2.b.10",
+                "Libelle": "a des prestations familiales comme ressources personnelles "
+              },
+              {
+                "id": "II_3_2_b_11",
+                "CodeValeur": "II.3.2.b.11",
+                "Libelle": "a d'autres revenus comme ressources personnelles "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "II_3_3",
+        "CodeValeur": "II.3.3",
+        "Libelle": "absence de ressource personnelle"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "Section": "éléments environnementaux",
+    "Libelle": "Caractéristiques transport (CARTRANSP)",
+    "Trajectoire": "toutes",
+    "Question": "Quels sont les moyens de transport utilisés par la personne?",
+    "Type": "CM tous niveaux",
+    "Reponses": [
+      {
+        "id": "IV_2",
+        "CodeValeur": "IV.2",
+        "Libelle": "utilisation des  transports en commun",
+        "Reponses": [
+          {
+            "id": "IV_2_1 ",
+            "CodeValeur": "IV.2.1 ",
+            "Libelle": "utilise seul les transports en commun"
+          },
+          {
+            "id": "IV_2_2",
+            "CodeValeur": "IV.2.2",
+            "Libelle": "utilise les transports en commun avec un accompagnateur"
+          },
+          {
+            "id": "IV_2_3 ",
+            "CodeValeur": "IV.2.3 ",
+            "Libelle": "utilise les transports de substitution"
+          }
+        ]
+      },
+      {
+        "id": "IV_2_bis",
+        "CodeValeur": "IV.2.bis",
+        "Libelle": "utilisation des transports scolaires",
+        "Reponses": [
+          {
+            "id": "IV_2_bis_1 ",
+            "CodeValeur": "IV.2.bis.1 ",
+            "Libelle": "utilise le véhicule de la famille pour les transports scolaires"
+          },
+          {
+            "id": "IV_2_bis_2",
+            "CodeValeur": "IV.2.bis.2",
+            "Libelle": "utilise les transports scolaires collectifs de droit commun"
+          },
+          {
+            "id": "IV_2_bis_3",
+            "CodeValeur": "IV.2.bis.3",
+            "Libelle": "utilise un transport individuel ordinaire avec chauffeur pour les transports scolaires"
+          },
+          {
+            "id": "IV_2_bis_4",
+            "CodeValeur": "IV.2.bis.4",
+            "Libelle": "utilise un transport sanitaire avec accompagnateur pour les transports scolaires"
+          },
+          {
+            "id": "IV_2_bis_5",
+            "CodeValeur": "IV.2.bis.5",
+            "Libelle": "utilise un véhicule spécialement aménagé autre que le véhicule familial pour les transports scolaires"
+          }
+        ]
+      },
+      {
+        "id": "IV_2_ter",
+        "CodeValeur": "IV.2.ter",
+        "Libelle": "utilisation d'un véhicule personnel ou familial",
+        "Reponses": [
+          {
+            "id": "IV_2_ter_1 ",
+            "CodeValeur": "IV.2.ter.1 ",
+            "Libelle": "passager d'un véhicule personnel ou familial "
+          },
+          {
+            "id": "IV_2_ter_2",
+            "CodeValeur": "IV.2.ter.2",
+            "Libelle": "conduit un véhicule sans permis"
+          },
+          {
+            "id": "IV_2_ter_3",
+            "CodeValeur": "IV.2.ter.3",
+            "Libelle": "conduit un véhicule avec permis",
+            "Reponses": [
+              {
+                "id": "IV_2_ter_3_a ",
+                "CodeValeur": "IV.2.ter.3.a ",
+                "Libelle": "utilise un véhicule personnel et a un permis avec mention d’aménagement du véhicule "
+              },
+              {
+                "id": "IV_2_ter_3_b",
+                "CodeValeur": "IV.2.ter.3.b",
+                "Libelle": "utilise un véhicule personnel et a un permis sans mention d’aménagement du véhicule "
+              }
+            ]
+          },
+          {
+            "id": "IV_2_ter_4 ",
+            "CodeValeur": "IV.2.ter.4 ",
+            "Libelle": "est en cours de formation au permis de conduire pour utiliser un véhicule personnel"
+          }
+        ]
+      },
+      {
+        "id": "IV_2_quater",
+        "CodeValeur": "IV.2.quater",
+        "Libelle": "non attendu en fonction de l'âge"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "Situation par rapport à l'activité (SITACT) + situation scolaire actuelle (SITSCO) + établissement fréquenté (TYPSCO)",
+    "Trajectoire": "Vie scolaire uniquement",
+    "Question": "quelle est la situation de la personne par rapport à la scolarité ?",
+    "Type": "CU tous niveaux",
+    "Reponses": [
+      {
+        "id": "II_2_1",
+        "CodeValeur": "II.2.1",
+        "Libelle": " non scolarisé",
+        "Reponses": [
+          {
+            "id": "II_2_1_a",
+            "CodeValeur": "II.2.1.a",
+            "Libelle": "enfant jamais scolarisé"
+          },
+          {
+            "id": "II_2_1_b",
+            "CodeValeur": "II.2.1.b",
+            "Libelle": "enfant non scolarisé actuellement"
+          }
+        ]
+      },
+      {
+        "id": "II_2_2",
+        "CodeValeur": "II.2.2",
+        "Libelle": "Scolarisation, formation initiale et/ou autres formations non rémunérées",
+        "Reponses": [
+          {
+            "id": "II_2_2_a",
+            "CodeValeur": "II.2.2.a",
+            "Libelle": "Scolarisation ou formation en établissement d'enseignement",
+            "Reponses": [
+              {
+                "id": "II_2_2_a_1",
+                "CodeValeur": "II.2.2.a.1",
+                "Libelle": "Scolarisation en classe ordinaire",
+                "Reponses": [
+                  {
+                    "id": "II_2_2_a_1_a",
+                    "CodeValeur": "II.2.2.a.1.a",
+                    "Libelle": "Scolarisation dans le 1er degré",
+                    "Reponses": [
+                      {
+                        "id": "II_2_2_a_1_a_1",
+                        "CodeValeur": "II.2.2.a.1.a.1",
+                        "Libelle": "Scolarisation en maternelle",
+                        "Reponses": [
+                          {
+                            "id": "II_2_2_a_1_a_1_a",
+                            "CodeValeur": "II.2.2.a.1.a.1.a",
+                            "Libelle": "scolarisation en petite section de maternelle "
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_1_b",
+                            "CodeValeur": "II.2.2.a.1.a.1.b",
+                            "Libelle": "scolarisation en moyenne section de maternelle"
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_1_c",
+                            "CodeValeur": "II.2.2.a.1.a.1.c",
+                            "Libelle": "scolarisation en grande section de maternelle"
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_1_d",
+                            "CodeValeur": "II.2.2.a.1.a.1.d",
+                            "Libelle": "scolarisation en unité d'enseignement en maternelle (TSA)"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "II_2_2_a_1_a_2",
+                        "CodeValeur": "II.2.2.a.1.a.2",
+                        "Libelle": "Scolarisation en élémentaire",
+                        "Reponses": [
+                          {
+                            "id": "II_2_2_a_1_a_2_a",
+                            "CodeValeur": "II.2.2.a.1.a.2.a",
+                            "Libelle": "scolarisation en cours préparatoire"
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_2_b",
+                            "CodeValeur": "II.2.2.a.1.a.2.b",
+                            "Libelle": "scolarisation en cours élémentaire 1ère année"
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_2_c",
+                            "CodeValeur": "II.2.2.a.1.a.2.c",
+                            "Libelle": "scolarisation en cours élémentaire 2ème année"
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_2_d",
+                            "CodeValeur": "II.2.2.a.1.a.2.d",
+                            "Libelle": "scolarisation en cours moyen 1ère année"
+                          },
+                          {
+                            "id": "II_2_2_a_1_a_2_e",
+                            "CodeValeur": "II.2.2.a.1.a.2.e",
+                            "Libelle": "scolarisation en cours moyen 2ème année"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "II_2_2_a_1_b",
+                    "CodeValeur": "II.2.2.a.1.b",
+                    "Libelle": "Scolarisation dans le 2ème degré au collège",
+                    "Reponses": [
+                      {
+                        "id": "II_2_2_a_1_b_1",
+                        "CodeValeur": "II.2.2.a.1.b.1",
+                        "Libelle": "scolarisation au collège en 6ème"
+                      },
+                      {
+                        "id": "II_2_2_a_1_b_2",
+                        "CodeValeur": "II.2.2.a.1.b.2",
+                        "Libelle": "scolarisation au collège en 5ème"
+                      },
+                      {
+                        "id": "II_2_2_a_1_b_3",
+                        "CodeValeur": "II.2.2.a.1.b.3",
+                        "Libelle": "scolarisation au collège en 4ème"
+                      },
+                      {
+                        "id": "II_2_2_a_1_b_4",
+                        "CodeValeur": "II.2.2.a.1.b.4",
+                        "Libelle": "scolarisation au collège en 3ème"
+                      },
+                      {
+                        "id": "II_2_2_a_1_b_5",
+                        "CodeValeur": "II.2.2.a.1.b.5",
+                        "Libelle": "scolarisation au collège en 3ème préparatoire aux formations professionnelles"
+                      },
+                      {
+                        "id": "II_2_2_a_1_b_6",
+                        "CodeValeur": "II.2.2.a.1.b.6",
+                        "Libelle": "dispositif d'insertion aux métiers en alternance"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "II_2_2_a_1_c",
+                    "CodeValeur": "II.2.2.a.1.c",
+                    "Libelle": "Scolarisation dans le 2ème degré en lycée générale et technologique",
+                    "Reponses": [
+                      {
+                        "id": "II_2_2_a_1_c_1",
+                        "CodeValeur": "II.2.2.a.1.c.1",
+                        "Libelle": "scolarisation en 2nde générale et technologique"
+                      },
+                      {
+                        "id": "II_2_2_a_1_c_2",
+                        "CodeValeur": "II.2.2.a.1.c.2",
+                        "Libelle": "scolarisation en 1ère générale"
+                      },
+                      {
+                        "id": "II_2_2_a_1_c_3",
+                        "CodeValeur": "II.2.2.a.1.c.3",
+                        "Libelle": "scolarisation en 1ère technologique"
+                      },
+                      {
+                        "id": "II_2_2_a_1_c_4",
+                        "CodeValeur": "II.2.2.a.1.c.4",
+                        "Libelle": "scolarisation en terminale générale"
+                      },
+                      {
+                        "id": "II_2_2_a_1_c_5",
+                        "CodeValeur": "II.2.2.a.1.c.5",
+                        "Libelle": "scolarisation en terminale technologique"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "II_2_2_a_1_d",
+                    "CodeValeur": "II.2.2.a.1.d",
+                    "Libelle": "Scolarisation dans le 2ème degré en lycée professionnel",
+                    "Reponses": [
+                      {
+                        "id": "II_2_2_a_1_d_1",
+                        "CodeValeur": "II.2.2.a.1.d.1",
+                        "Libelle": "scolarisation en CAP 1ère année"
+                      },
+                      {
+                        "id": "II_2_2_a_1_d_2",
+                        "CodeValeur": "II.2.2.a.1.d.2",
+                        "Libelle": "scolarisation en CAP 2ème année"
+                      },
+                      {
+                        "id": "II_2_2_a_1_d_3",
+                        "CodeValeur": "II.2.2.a.1.d.3",
+                        "Libelle": "scolarisation en 2nde professionnelle"
+                      },
+                      {
+                        "id": "II_2_2_a_1_d_4",
+                        "CodeValeur": "II.2.2.a.1.d.4",
+                        "Libelle": "scolarisation en 1ère professionnelle"
+                      },
+                      {
+                        "id": "II_2_2_a_1_d_5",
+                        "CodeValeur": "II.2.2.a.1.d.5",
+                        "Libelle": "scolarisation en terminale professionnelle"
+                      },
+                      {
+                        "id": "II_2_2_a_1_d_6",
+                        "CodeValeur": "II.2.2.a.1.d.6",
+                        "Libelle": "autre mode de scolarisation dans le 2ème degré en lycée professionnel "
+                      }
+                    ]
+                  },
+                  {
+                    "id": "II_2_2_a_1_e",
+                    "CodeValeur": "II.2.2.a.1.e",
+                    "Libelle": "Scolarisation post bac (BTS, CPGE)",
+                    "Reponses": [
+                      {
+                        "id": "II_2_2_a_1_e_1",
+                        "CodeValeur": "II.2.2.a.1.e.1",
+                        "Libelle": "scolarisation en BTS 1ère année"
+                      },
+                      {
+                        "id": "II_2_2_a_1_e_2",
+                        "CodeValeur": "II.2.2.a.1.e.2",
+                        "Libelle": "scolarisation en BTS 2ème année"
+                      },
+                      {
+                        "id": "II_2_2_a_1_e_3",
+                        "CodeValeur": "II.2.2.a.1.e.3",
+                        "Libelle": "scolarisation en CPGE 1ère année"
+                      },
+                      {
+                        "id": "II_2_2_a_1_e_4",
+                        "CodeValeur": "II.2.2.a.1.e.4",
+                        "Libelle": "scolarisation en CPGE 2ème année"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "II_2_2_a_2",
+                "CodeValeur": "II.2.2.a.2",
+                "Libelle": "Scolarisation en unité localisée pour l’inclusion scolaire (ULIS)",
+                "Reponses": [
+                  {
+                    "id": "II_2_2_a_2_a",
+                    "CodeValeur": "II.2.2.a.2.a",
+                    "Libelle": "Scolarisation en ULIS école"
+                  },
+                  {
+                    "id": "II_2_2_a_2_b",
+                    "CodeValeur": "II.2.2.a.2.b",
+                    "Libelle": "Scolarisation en ULIS collège"
+                  },
+                  {
+                    "id": "II_2_2_a_2_c",
+                    "CodeValeur": "II.2.2.a.2.c",
+                    "Libelle": "Scolarisation en ULIS lycée"
+                  }
+                ]
+              },
+              {
+                "id": "II_2_2_a_3",
+                "CodeValeur": "II.2.2.a.3",
+                "Libelle": "Scolarisation dans un pôle d’enseignement des jeunes sourds (PEJS)"
+              },
+              {
+                "id": "II_2_2_a_4",
+                "CodeValeur": "II.2.2.a.4",
+                "Libelle": "Etudes dans l’enseignement supérieur (grandes écoles, université)"
+              },
+              {
+                "id": "II_2_2_a_5",
+                "CodeValeur": "II.2.2.a.5",
+                "Libelle": "Scolarisation dans une unité d’enseignement installée dans un établissement médico-social"
+              },
+              {
+                "id": "II_2_2_a_6",
+                "CodeValeur": "II.2.2.a.6",
+                "Libelle": "Scolarisation dans une unité d’enseignement installée dans un établissement scolaire"
+              },
+              {
+                "id": "II_2_2_a_7",
+                "CodeValeur": "II.2.2.a.7",
+                "Libelle": "Scolarisation dans une unité d’enseignement et en milieu ordinaire en temps partagé"
+              },
+              {
+                "id": "II_2_2_a_8",
+                "CodeValeur": "II.2.2.a.8",
+                "Libelle": "Scolarisation dans le cadre de l’enseignement adapté (SEGPA, EREA)"
+              },
+              {
+                "id": "II_2_2_a_9",
+                "CodeValeur": "II.2.2.a.9",
+                "Libelle": "Formation en CFA"
+              }
+            ]
+          },
+          {
+            "id": "II_2_2_b",
+            "CodeValeur": "II.2.2.b",
+            "Libelle": "autre type de scolarisation",
+            "Reponses": [
+              {
+                "id": "II_2_2_b_1",
+                "CodeValeur": "II.2.2.b.1",
+                "Libelle": "enseignement par le CNED "
+              },
+              {
+                "id": "II_2_2_b_2",
+                "CodeValeur": "II.2.2.b.2",
+                "Libelle": "enseignement à domicile (SAPAD, autres…) "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "temps de scolarisation",
+    "Trajectoire": "Vie scolaire uniquement",
+    "Question": "quel est le temps de scolarisation hebdomadaire ?",
+    "Type": "CU",
+    "Reponses": [
+      {
+        "id": "V_5_1",
+        "CodeValeur": "V.5.1",
+        "Libelle": "Inférieur à une demi-journée"
+      },
+      {
+        "id": "V_5_2",
+        "CodeValeur": "V.5.2",
+        "Libelle": "1 demi-journée"
+      },
+      {
+        "id": "V_5_3",
+        "CodeValeur": "V.5.3",
+        "Libelle": "2 demi-journées"
+      },
+      {
+        "id": "V_5_4",
+        "CodeValeur": "V.5.4",
+        "Libelle": "3 demi-journées"
+      },
+      {
+        "id": "V_5_5",
+        "CodeValeur": "V.5.5",
+        "Libelle": "4 demi-journées"
+      },
+      {
+        "id": "V_5_6",
+        "CodeValeur": "V.5.6",
+        "Libelle": "5 demi-journées"
+      },
+      {
+        "id": "V_5_7",
+        "CodeValeur": "V.5.7",
+        "Libelle": "6 demi-journées"
+      },
+      {
+        "id": "V_5_8",
+        "CodeValeur": "V.5.8",
+        "Libelle": "7 demi-journées"
+      },
+      {
+        "id": "V_5_9",
+        "CodeValeur": "V.5.9",
+        "Libelle": "8 demi-journées"
+      },
+      {
+        "id": "V_5_10",
+        "CodeValeur": "V.5.10",
+        "Libelle": "9 demi-journées"
+      },
+      {
+        "id": "V_5_11",
+        "CodeValeur": "V.5.11",
+        "Libelle": "10 demi-journées et +"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "Evaluation scolarité (EVASCO)",
+    "Trajectoire": "Vie scolaire uniquement",
+    "Question": "comment se déroule la scolarité et quels résultats sont-ils globalement obtenus ?",
+    "Type": "CU",
+    "Reponses": [
+      {
+        "id": "V_2_1",
+        "CodeValeur": "V.2.1",
+        "Libelle": "scolarité sans aménagements avec acquisitions comparables en rythme et en contenu à la classe d’âge"
+      },
+      {
+        "id": "V_2_2",
+        "CodeValeur": "V.2.2",
+        "Libelle": "scolarité sans aménagements sans accès aux acquisitions attendues pour la classe d’âge"
+      },
+      {
+        "id": "V_2_3",
+        "CodeValeur": "V.2.3",
+        "Libelle": "scolarité avec aménagements avec acquisitions attendues pour la classe d'âge"
+      },
+      {
+        "id": "V_2_4",
+        "CodeValeur": "V.2.4",
+        "Libelle": "scolarité avec aménagements sans accès aux acquisitions attendues pour la classe d’âge"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "Niveau de formation professionnelle (NIVFORPRO)",
+    "Trajectoire": "Vie professionnelle uniquement",
+    "Question": "Quel est le niveau de formation professionnelle de la personne?",
+    "Type": "CU",
+    "Reponses": [
+      {
+        "id": "VI_1_bis_1",
+        "CodeValeur": "VI.1.bis.1",
+        "Libelle": "Niv.I, formation de niveau supérieur à la maîtrise"
+      },
+      {
+        "id": "VI_1_bis_2",
+        "CodeValeur": "VI.1.bis.2",
+        "Libelle": "Niv.II, formation de niveau comparable à la licence ou la maîtrise"
+      },
+      {
+        "id": "VI_1_bis_3",
+        "CodeValeur": "VI.1.bis.3",
+        "Libelle": "Niv.III, formation du niveau DUT, BTS ou fin de premier cycle de l'enseignement supérieur"
+      },
+      {
+        "id": "VI_1_bis_4",
+        "CodeValeur": "VI.1.bis.4",
+        "Libelle": "Niv.IV, formation équivalent au BP, BT, bac pro ou bac techno"
+      },
+      {
+        "id": "VI_1_bis_5",
+        "CodeValeur": "VI.1.bis.5",
+        "Libelle": "Niv.V, formation équivalent au CAP, BEP ou au diplôme national du brevet "
+      },
+      {
+        "id": "VI_1_bis_6",
+        "CodeValeur": "VI.1.bis.6",
+        "Libelle": "Niv.Vbis, formation spécialisée de durée maxi de 1 an après 1er cycle du 2nd degré, niveau CFP"
+      },
+      {
+        "id": "VI_1_bis_7",
+        "CodeValeur": "VI.1.bis.7",
+        "Libelle": "Niv.VI, formation n'allant pas au delà de la scolarité obligatoire"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "situation par rapport au travail (SITEMP) + interruption d'activité + Type de contrat (TYPCONT)",
+    "Trajectoire": "Vie professionnelle uniquement",
+    "Question": "quelle est la situation de la personnes par rapport au travail ?",
+    "Type": "CU tous niveaux",
+    "Reponses": [
+      {
+        "id": "VI_3_bis_1",
+        "CodeValeur": "VI.3.bis.1",
+        "Libelle": "ne travaille pas",
+        "Reponses": [
+          {
+            "id": "VI_3_bis_1_a",
+            "CodeValeur": "VI.3.bis.1.a",
+            "Libelle": "ne travaille pas et n'a jamais travaillé",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_1_a_1",
+                "CodeValeur": "VI.3.bis.1.a.1",
+                "Libelle": "n'a jamais travaillé et est en recherche d'emploi",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_a_1_a",
+                    "CodeValeur": "VI.3.bis.1.a.1.a",
+                    "Libelle": "n'a jamais travaillé et est en recherche d'emploi depuis 1 à 5ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_a_1_b",
+                    "CodeValeur": "VI.3.bis.1.a.1.b",
+                    "Libelle": "n'a jamais travaillé et est en recherche d'emploi depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_a_1_c",
+                    "CodeValeur": "VI.3.bis.1.a.1.c",
+                    "Libelle": "n'a jamais travaillé et est en recherche d'emploi depuis plus de 10 ans"
+                  }
+                ]
+              },
+              {
+                "id": "VI_3_bis_1_a_2",
+                "CodeValeur": "VI.3.bis.1.a.2",
+                "Libelle": "n'a jamais travaillé et est au foyer",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_a_2_a",
+                    "CodeValeur": "VI.3.bis.1.a.2.a",
+                    "Libelle": "n'a jamais travaillé et est au foyer depuis 1 à 5ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_a_2_b",
+                    "CodeValeur": "VI.3.bis.1.a.2.b",
+                    "Libelle": "n'a jamais travaillé et est au foyer depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_a_2_c",
+                    "CodeValeur": "VI.3.bis.1.a.2.c",
+                    "Libelle": "n'a jamais travaillé et est au foyer depuis plus de 10 ans"
+                  }
+                ]
+              },
+              {
+                "id": "VI_3_bis_1_a_3",
+                "CodeValeur": "VI.3.bis.1.a.3",
+                "Libelle": "n'a jamais travaillé et est dans une autre situation",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_a_3_a",
+                    "CodeValeur": "VI.3.bis.1.a.3.a",
+                    "Libelle": "n'a jamais travaillé et est dans une autre situation depuis 1 à 5ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_a_3_b",
+                    "CodeValeur": "VI.3.bis.1.a.3.b",
+                    "Libelle": "n'a jamais travaillé et est dans une autre situation depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_a_3_c",
+                    "CodeValeur": "VI.3.bis.1.a.3.c",
+                    "Libelle": "n'a jamais travaillé et est dans une autre situation depuis plus de 10 ans"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_1_b",
+            "CodeValeur": "VI.3.bis.1.b",
+            "Libelle": "a déjà travaillé mais ne travaille pas actuellement ",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_1_b_1",
+                "CodeValeur": "VI.3.bis.1.b.1",
+                "Libelle": "ne travaille pas actuellement et est en congé maternité"
+              },
+              {
+                "id": "VI_3_bis_1_b_2",
+                "CodeValeur": "VI.3.bis.1.b.2",
+                "Libelle": "ne travaille pas actuellement et est en congé parental"
+              },
+              {
+                "id": "VI_3_bis_1_b_3",
+                "CodeValeur": "VI.3.bis.1.b.3",
+                "Libelle": "ne travaille pas actuellement et est arrêt maladie ou AT/MP"
+              },
+              {
+                "id": "VI_3_bis_1_b_4",
+                "CodeValeur": "VI.3.bis.1.b.4",
+                "Libelle": "ne travaille pas actuellement et est en congé longue maladie ou longue durée"
+              },
+              {
+                "id": "VI_3_bis_1_b_5",
+                "CodeValeur": "VI.3.bis.1.b.5",
+                "Libelle": "ne travaille pas actuellement et est en invalidité",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_b_5_a",
+                    "CodeValeur": "VI.3.bis.1.b.5.a",
+                    "Libelle": "est en invalidité et ne travaille pas actuellement depuis 1 à 5ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_5_b",
+                    "CodeValeur": "VI.3.bis.1.b.5.b",
+                    "Libelle": "est en invalidité et ne travaille pas actuellement depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_5_c",
+                    "CodeValeur": "VI.3.bis.1.b.5.c",
+                    "Libelle": "est en invalidité et ne travaille pas actuellement depuis plus de 10 ans"
+                  }
+                ]
+              },
+              {
+                "id": "VI_3_bis_1_b_6",
+                "CodeValeur": "VI.3.bis.1.b.6",
+                "Libelle": "ne travaille pas actuellement et est au chômage",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_b_6_a",
+                    "CodeValeur": "VI.3.bis.1.b.6.a",
+                    "Libelle": "est au chômage et ne travaille pas actuellement depuis 1 à 5 ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_6_b",
+                    "CodeValeur": "VI.3.bis.1.b.6.b",
+                    "Libelle": "est au chômage et ne travaille pas actuellement depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_6_c",
+                    "CodeValeur": "VI.3.bis.1.b.6.c",
+                    "Libelle": "est au chômage et ne travaille pas actuellement depuis plus de 10 ans"
+                  }
+                ]
+              },
+              {
+                "id": "VI_3_bis_1_b_7",
+                "CodeValeur": "VI.3.bis.1.b.7",
+                "Libelle": "ne travaille plus actuellement et a eu une retraite à l'âge normal"
+              },
+              {
+                "id": "VI_3_bis_1_b_8",
+                "CodeValeur": "VI.3.bis.1.b.8",
+                "Libelle": "ne travaille plus actuellement et a eu une retraite anticipée"
+              },
+              {
+                "id": "VI_3_bis_1_b_9",
+                "CodeValeur": "VI.3.bis.1.b.9",
+                "Libelle": "ne travaille pas actuellement et est au foyer",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_b_9_a",
+                    "CodeValeur": "VI.3.bis.1.b.9.a",
+                    "Libelle": "est au foyer et ne travaille pas actuellement depuis 1 à 5 ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_9_b",
+                    "CodeValeur": "VI.3.bis.1.b.9.b",
+                    "Libelle": "est au foyer et ne travaille pas actuellement depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_9_c",
+                    "CodeValeur": "VI.3.bis.1.b.9.c",
+                    "Libelle": "est au foyer et ne travaille pas actuellement depuis plus de 10 ans"
+                  }
+                ]
+              },
+              {
+                "id": "VI_3_bis_1_b_10",
+                "CodeValeur": "VI.3.bis.1.b.10",
+                "Libelle": "ne travaille pas actuellement et est dans une autre situation",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_1_b_10_a",
+                    "CodeValeur": "VI.3.bis.1.b.10.a",
+                    "Libelle": "est dans une autre situation et ne travaille pas actuellement depuis 1 à 5 ans"
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_10_b",
+                    "CodeValeur": "VI.3.bis.1.b.10.b",
+                    "Libelle": "est dans une autre situation et ne travaille pas actuellement depuis 5 à 10 ans "
+                  },
+                  {
+                    "id": "VI_3_bis_1_b_10_c",
+                    "CodeValeur": "VI.3.bis.1.b.10.c",
+                    "Libelle": "est dans une autre situation et ne travaille pas actuellement depuis plus de 10 ans"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "VI_3_bis_2",
+        "CodeValeur": "VI.3.bis.2",
+        "Libelle": "travaille actuellement",
+        "Reponses": [
+          {
+            "id": "VI_3_bis_2_a",
+            "CodeValeur": "VI.3.bis.2.a",
+            "Libelle": "travaille en apprentissage",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_a_1",
+                "CodeValeur": "VI.3.bis.2.a.1",
+                "Libelle": "travaille en apprentissage à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_a_2",
+                "CodeValeur": "VI.3.bis.2.a.2",
+                "Libelle": "travaille en apprentissage à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_a_2_a",
+                    "CodeValeur": "VI.3.bis.2.a.2.a",
+                    "Libelle": "travail à temps partiel en apprentissage sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_a_2_b",
+                    "CodeValeur": "VI.3.bis.2.a.2.b",
+                    "Libelle": "travail à temps partiel en apprentissage sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_b",
+            "CodeValeur": "VI.3.bis.2.b",
+            "Libelle": "travaille en tant que stagiaire",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_b_1",
+                "CodeValeur": "VI.3.bis.2.b.1",
+                "Libelle": "travaille en tant que stagiaire à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_b_2",
+                "CodeValeur": "VI.3.bis.2.b.2",
+                "Libelle": "travaille en tant que stagiaire à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_b_2_a",
+                    "CodeValeur": "VI.3.bis.2.b.2.a",
+                    "Libelle": "travail à temps partiel en tant que stagiaire sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_b_2_b",
+                    "CodeValeur": "VI.3.bis.2.b.2.b",
+                    "Libelle": "travail à temps partiel en tant que stagiaire sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_c",
+            "CodeValeur": "VI.3.bis.2.c",
+            "Libelle": "travaille en contrat aidé",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_c_1",
+                "CodeValeur": "VI.3.bis.2.c.1",
+                "Libelle": "travaille en contrat aidé à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_c_2",
+                "CodeValeur": "VI.3.bis.2.c.2",
+                "Libelle": "travaille en contrat aidé à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_c_2_a",
+                    "CodeValeur": "VI.3.bis.2.c.2.a",
+                    "Libelle": "travail à temps partiel en contrat aidé sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_c_2_b",
+                    "CodeValeur": "VI.3.bis.2.c.2.b",
+                    "Libelle": "travail à temps partiel en contrat aidé sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_d",
+            "CodeValeur": "VI.3.bis.2.d",
+            "Libelle": "travaille en CDD",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_d_1",
+                "CodeValeur": "VI.3.bis.2.d.1",
+                "Libelle": "travaille en CDD à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_d_2",
+                "CodeValeur": "VI.3.bis.2.d.2",
+                "Libelle": "travaille en CDD à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_d_2_a",
+                    "CodeValeur": "VI.3.bis.2.d.2.a",
+                    "Libelle": "travail à temps partiel en CDD sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_d_2_b",
+                    "CodeValeur": "VI.3.bis.2.d.2.b",
+                    "Libelle": "travail à temps partiel en CDD sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_e",
+            "CodeValeur": "VI.3.bis.2.e",
+            "Libelle": "travaille en CDI",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_e_1",
+                "CodeValeur": "VI.3.bis.2.e.1",
+                "Libelle": "travaille en CDI à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_e_2",
+                "CodeValeur": "VI.3.bis.2.e.2",
+                "Libelle": "travaille en CDI à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_e_2_a",
+                    "CodeValeur": "VI.3.bis.2.e.2.a",
+                    "Libelle": "travail à temps partiel en CDI sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_e_2_b",
+                    "CodeValeur": "VI.3.bis.2.e.2.b",
+                    "Libelle": "travail à temps partiel en CDI sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_f",
+            "CodeValeur": "VI.3.bis.2.f",
+            "Libelle": "travaille en intérim",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_f_1",
+                "CodeValeur": "VI.3.bis.2.f.1",
+                "Libelle": "travaille en intérim à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_f_2",
+                "CodeValeur": "VI.3.bis.2.f.2",
+                "Libelle": "travaille en intérim à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_f_2_a",
+                    "CodeValeur": "VI.3.bis.2.f.2.a",
+                    "Libelle": "travail à temps partiel en intérim sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_f_2_b",
+                    "CodeValeur": "VI.3.bis.2.f.2.b",
+                    "Libelle": "travail à temps partiel en intérim sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_g",
+            "CodeValeur": "VI.3.bis.2.g",
+            "Libelle": "travaille en tant que travailleur indépendant",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_g_1",
+                "CodeValeur": "VI.3.bis.2.g.1",
+                "Libelle": "travaille en tant que travailleur indépendant à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_g_2",
+                "CodeValeur": "VI.3.bis.2.g.2",
+                "Libelle": "travaille en tant que travailleur indépendant à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_g_2_a",
+                    "CodeValeur": "VI.3.bis.2.g.2.a",
+                    "Libelle": "travail à temps partiel en tant que travailleur indépendant sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_g_2_b",
+                    "CodeValeur": "VI.3.bis.2.g.2.b",
+                    "Libelle": "travail à temps partiel en tant que travailleur indépendant sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_h",
+            "CodeValeur": "VI.3.bis.2.h",
+            "Libelle": "travaille en ESAT",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_h_1",
+                "CodeValeur": "VI.3.bis.2.h.1",
+                "Libelle": "travaille en ESAT à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_h_2",
+                "CodeValeur": "VI.3.bis.2.h.2",
+                "Libelle": "travaille en ESAT à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2_h_2_a",
+                    "CodeValeur": "VI.3.bis.2.h.2.a",
+                    "Libelle": "travail à temps partiel en ESAT sur un temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_h_2_b",
+                    "CodeValeur": "VI.3.bis.2.h.2.b",
+                    "Libelle": "travail à temps partiel en ESAT sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "VI_3_bis_2_i",
+            "CodeValeur": "VI.3.bis.2.i",
+            "Libelle": "autre type de travail",
+            "Reponses": [
+              {
+                "id": "VI_3_bis_2_i_1",
+                "CodeValeur": "VI.3.bis.2.i.1",
+                "Libelle": "autre type de travail à temps complet"
+              },
+              {
+                "id": "VI_3_bis_2_i_2",
+                "CodeValeur": "VI.3.bis.2.i.2",
+                "Libelle": "autre type de travail à temps partiel",
+                "Reponses": [
+                  {
+                    "id": "VI_3_bis_2ia_2_a",
+                    "CodeValeur": "VI.3.bis.2ia.2.a",
+                    "Libelle": "autre type de travail à temps partiel sur un  temps supérieur ou égal un à mi temps"
+                  },
+                  {
+                    "id": "VI_3_bis_2_i_2_b",
+                    "CodeValeur": "VI.3.bis.2.i.2.b",
+                    "Libelle": "autre type de travail à temps partiel sur un temps inférieur à un mi temps"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "aménagement du poste de travail + aptitude au poste",
+    "Trajectoire": "Vie professionnelle uniquement",
+    "Question": "quelle est l'aptitude actuelle au poste ?",
+    "Type": "CU tous niveaux",
+    "Reponses": [
+      {
+        "id": "VI_4_septies_1",
+        "CodeValeur": "VI.4.septies.1",
+        "Libelle": "apte sans restriction",
+        "Reponses": [
+          {
+            "id": "VI_4_septies_1_a",
+            "CodeValeur": "VI.4.septies.1.a",
+            "Libelle": "apte sans restriction sans aménagement de poste"
+          },
+          {
+            "id": "VI_4_septies_1_b",
+            "CodeValeur": "VI.4.septies.1.b",
+            "Libelle": "apte sans restriction avec aménagement de poste ",
+            "Reponses": [
+              {
+                "id": "VI_4_septies_1_b_1",
+                "CodeValeur": "VI.4.septies.1.b.1",
+                "Libelle": "apte sans restriction avec aménagement de poste déjà réalisé"
+              },
+              {
+                "id": "VI_4_septies_1_b_2",
+                "CodeValeur": "VI.4.septies.1.b.2",
+                "Libelle": "apte sans restriction avec aménagement de poste non encore réalisé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "VI_4_septies_2",
+        "CodeValeur": "VI.4.septies.2",
+        "Libelle": "apte avec restriction",
+        "Reponses": [
+          {
+            "id": "VI_4_septies_2_a",
+            "CodeValeur": "VI.4.septies.2.a",
+            "Libelle": "apte avec restriction sans aménagement de poste"
+          },
+          {
+            "id": "VI_4_septies_2_b",
+            "CodeValeur": "VI.4.septies.2.b",
+            "Libelle": "apte avec restriction avec aménagement de poste ",
+            "Reponses": [
+              {
+                "id": "VI_4_septies_2_b_1",
+                "CodeValeur": "VI.4.septies.2.b.1",
+                "Libelle": "apte avec restriction avec aménagement de poste déjà réalisé"
+              },
+              {
+                "id": "VI_4_septies_2_b_2",
+                "CodeValeur": "VI.4.septies.2.b.2",
+                "Libelle": "apte avec restriction avec aménagement de poste non encore réalisé"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "VI_4_septies_3",
+        "CodeValeur": "VI.4.septies.3",
+        "Libelle": "inapte"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "Section": "éléments scolaires ou professionnels",
+    "Libelle": "perspectives professionnelles",
+    "Trajectoire": "Vie professionnelle uniquement",
+    "Question": "quelles sont les perspectives par rapport à l'emploi en cas d'inaptitude ou de restriction ? ",
+    "Type": "CU tous niveaux",
+    "Reponses": [
+      {
+        "id": "VI_5_1",
+        "CodeValeur": "VI.5.1",
+        "Libelle": "reclassement interne"
+      },
+      {
+        "id": "VI_5_2",
+        "CodeValeur": "VI.5.2",
+        "Libelle": "aménagement des conditions de travail"
+      },
+      {
+        "id": "VI_5_3",
+        "CodeValeur": "VI.5.3",
+        "Libelle": "licenciement "
+      },
+      {
+        "id": "VI_5_4",
+        "CodeValeur": "VI.5.4",
+        "Libelle": "reconversion professionnelle"
+      }
+    ]
+  }
+]
