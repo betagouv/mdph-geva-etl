@@ -21,12 +21,12 @@ describe('ETL Geva', () => {
   });
 
   describe('When transforming the worksheet', () => {
-    it('should find the correct excel worksheet', () => {
+    it('should parse a valid worksheet', () => {
       const json = worksheet.then(transform);
 
       return Promise.all([
         json.should.eventually.exist,
-        json.should.eventually.have.lengthOf(12),
+        json.should.eventually.have.lengthOf(21),
         json.should.eventually.deep.equal(questionsSpec)
       ]);
     });

@@ -22,6 +22,7 @@ function transform(worksheet) {
 
     // Start row number
     var START_ROW = 3;
+    var END_ROW = 2702;
 
     // Columns in XLSX file
     var SECTION = 'B';
@@ -32,8 +33,6 @@ function transform(worksheet) {
 
     var REPONSE_LIBELLE = ['J','K','L','M','N','O'];
     var REPONSE_CODE_VALEUR = 'I';
-
-    const isValidRow = row => worksheet['I' + row] !== undefined;
 
     const isSection = row => !!worksheet[SECTION + row];
 
@@ -56,11 +55,18 @@ function transform(worksheet) {
 
     const isResponseLevel = (row, level) => !!worksheet[REPONSE_LIBELLE[level] + row];
 
-    const getId = id => id.replace(/\./g, '_');
+    const getId = (worksheet, row) => {
+      const codeValeur = worksheet[REPONSE_CODE_VALEUR + row]
+      if (codeValeur) {
+        return codeValeur.v.replace(/\./g, '_');
+      } else {
+        return `${row}_id`;
+      }
+    };
 
     const makeReponse = (worksheet, row, level) => ({
-      id: getId(worksheet[REPONSE_CODE_VALEUR + row].v),
-      CodeValeur: worksheet[REPONSE_CODE_VALEUR + row].v,
+      id: getId(worksheet, row),
+      CodeValeur: worksheet[REPONSE_CODE_VALEUR + row] ? worksheet[REPONSE_CODE_VALEUR + row].v : 'pas de code valeur',
       Libelle: worksheet[REPONSE_LIBELLE[level] + row].v
     });
 
@@ -79,7 +85,7 @@ function transform(worksheet) {
     var reponses = [];
 
     // Process until current row is empty
-    for (var row = START_ROW ; isValidRow(row) ; row++) {
+    for (var row = START_ROW ; row <= END_ROW ; row++) {
 
       if (isSection(row)) {
         // If current row as a section (not empty), make new section
